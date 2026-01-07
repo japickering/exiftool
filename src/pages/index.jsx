@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const title = "EXIF Image Data UI";
+const title = "EXIF Tool UI";
 const content =
-  "An EXIF Tool app that can read Image metadata formats like EXIF and XMP from JPEGs and PNG files";
+  "An EXIF Tool UI that can read Image metadata formats like EXIF and XMP from JPEGs and PNG files";
 
 export default function Home() {
   return (

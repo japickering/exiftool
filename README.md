@@ -1,6 +1,6 @@
 # Description
 
-An EXIF Tool app that can read Image metadata formats like EXIF and XMP.
+An EXIF Tool UI that can read Image metadata formats like EXIF and XMP.
 
 ## Getting Started
 
