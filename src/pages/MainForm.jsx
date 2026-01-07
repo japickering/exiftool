@@ -46,7 +46,7 @@ export default function MainForm() {
           onChange={(event) => setSrc(event.target.value)}
         />
         <label htmlFor="output">Metadata</label>
-        <textarea name="output" id="output" rows={10} value={output} />
+        <textarea name="output" id="output" rows={10} value={output} readOnly />
       </div>
       <button type="submit" className="primary">
         Submit Image
