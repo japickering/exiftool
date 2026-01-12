@@ -5,7 +5,13 @@ Based on the powerful Node library `exiftool-vendored` that wraps Phil Harvey's 
 
 ## Getting Started
 
-First, run the development server:
+In a new shell or terminal, cd to the project root. Then install the node dependencies:
+
+```bash
+npm install
+```
+
+then run the development server:
 
 ```bash
 npm run dev
