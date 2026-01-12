@@ -1,7 +1,9 @@
 # Description
 
-An EXIF Image Parse that can read and write Metadata on JPEG and PNG image files.
+An EXIF Image Parser that is capable of reading and writing tag Metadata on JPEG and PNG image files.
 Based on the powerful Node library `exiftool-vendored` that wraps Phil Harvey's ExifTool, which supports a range of metadata types (EXIF, IPTC, XMP, etc.)
+
+At the moment it simply reads description, author and image size tags and lets you edit and save a new description tag.
 
 ## Getting Started
 
