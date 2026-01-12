@@ -33,12 +33,18 @@ body {
   margin: 0;
 }
 
-form {
-  min-width: 600px;
+main,
+header {
+  padding: 20px;
 }
 
 section {
   margin-bottom: 10px;
+}
+
+form {
+  min-width: 300px;
+  max-width: 800px;
 }
 
 button {
