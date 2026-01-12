@@ -1,6 +1,7 @@
 # Description
 
-An EXIF Tool UI that can read Image metadata formats like EXIF and XMP from JPEGs and PNG files.
+An EXIF Image Parse that can read and write Metadata on JPEG and PNG image files.
+Based on the powerful Node library `exiftool-vendored` that wraps Phil Harvey's ExifTool, which supports a range of metadata types (EXIF, IPTC, XMP, etc.)
 
 ## Getting Started
 

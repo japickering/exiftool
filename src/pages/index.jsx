@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 const title = "EXIF Tool UI";
 const content =
-  "An EXIF Tool UI that can read Image metadata formats like EXIF and XMP from JPEGs and PNG files";
+  "An EXIF Tool can read and write Metadata on JPEG and PNG image files.";
 
 export default function Home() {
   return (
@@ -29,11 +29,10 @@ export default function Home() {
       <div
         className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}
       >
-        <div className={styles.intro}>
+        <header>
           <h1>{title}</h1>
-          <p>{content}.</p>
-          <p>The URL must contain a valid path to the image file.</p>
-        </div>
+          <p>{content}</p>
+        </header>
         <main className={styles.main}>
           <MainForm />
         </main>
