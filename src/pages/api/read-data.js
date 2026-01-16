@@ -10,9 +10,8 @@ export default async function handler(req, res) {
   try {
     const tags = await exiftool.read(imagePath);
     let content = `Description: ${tags.Description || ""}`.trim();
-    content += "\n" + `Author: Your AI Generator App`;
-    content +=
-      "\n" + `Size: ${tags.ImageWidth || "?"}x${tags.ImageHeight || "?"}`;
+    content += "\n" + `Author: ${tags.Author || ""}`.trim();
+    content += "\n" + `Size: ${tags.ImageWidth} x ${tags.ImageHeight}`;
 
     // shut down the child process when done
     await exiftool.end();

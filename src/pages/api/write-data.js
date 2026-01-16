@@ -13,7 +13,7 @@ export default async function handler(req, res) {
   try {
     await exiftool.write(imagePath, {
       Description: prompt,
-      Author: "Your AI Generator App",
+      Author: "EXIF Tool",
     });
     const content = `Metadata written to ${imagePath}`;
 
