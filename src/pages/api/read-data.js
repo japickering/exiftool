@@ -13,9 +13,6 @@ export default async function handler(req, res) {
     content += "\n" + `Author: ${tags.Author || ""}`.trim();
     content += "\n" + `Size: ${tags.ImageWidth} x ${tags.ImageHeight}`;
 
-    // shut down the child process when done
-    await exiftool.end();
-
     return res.status(200).json({ content });
   } catch (error) {
     return res
